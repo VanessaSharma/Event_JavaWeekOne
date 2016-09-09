@@ -7,6 +7,7 @@ public class Event {
   public int mCost = 0;
 
 
+
 public Event( int guests, String food, String drinks, String entertainment){
 
   mGuests = guests;
@@ -30,3 +31,5 @@ public Event( int guests, String food, String drinks, String entertainment){
   public String entertainment(int entertainmentOfChoice) {
     return mEntertainment;
   }
+
+  public

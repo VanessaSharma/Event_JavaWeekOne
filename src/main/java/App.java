@@ -15,8 +15,13 @@ Int foodOfChoice = Integer.parseInt(myConsole.readline());
 System.out.println("Would you like to include drinks in your events? Please enter the number associated with your choice: No(0), Yes, Alcoholic and Non-Alcoholic(4), Yes, only Non-Alcoholic(1).");
 Int drinksOfChoice = Integer.parseInt(myConsole.readline());
 
-System.out.println("Our company offers the option of having live entertainment. Please enter the number associated with your choice: No entertainment(0), Rock Band(1), Dj services(2), Professional Singer with dancers(5).");
+System.out.println("Our company offers the option of having live entertainment. Please enter the number associated with your choice: No entertainment(0), Rock Band(100), Dj services(200), Professional Singer with dancers(500).");
 Int entertainmentOfChoice = Integer.parseInt(myConsole.readline());
+
+
+int totalEventCost =( numberOfGuests + (numberofGuests * foodOfChoice) + (numberOfGuests * drinksOfChoice ) + entertainmentOfChoice);
+
+System.out.println(“The total cost of your event is:“ + totalEventCost);
 
   }
 }
