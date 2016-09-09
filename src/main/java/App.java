@@ -21,7 +21,7 @@ Int entertainmentOfChoice = Integer.parseInt(myConsole.readline());
 
 int totalEventCost =( numberOfGuests + (numberofGuests * foodOfChoice) + (numberOfGuests * drinksOfChoice ) + entertainmentOfChoice);
 
-System.out.println(“The total cost of your event is:“ + totalEventCost);
+System.out.println("The total cost of your desired event is:/n" + "$" + totalEventCost);
 
   }
 }
