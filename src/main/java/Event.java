@@ -1,35 +1,38 @@
 public class Event {
 
-  public int mGuests;
-  public String mFood;
-  public String mDrinks;
-  public String mEntertainment;
-  public int mCost = 0;
+  private int mGuests;
+  private int mFood;
+  private int mDrinks;
+  private int mEntertainment;
+  private int mTotalEventCost;
 
 
-
-public Event( int guests, String food, String drinks, String entertainment){
+public Event( int guests, int food, int drinks, int entertainment){
 
   mGuests = guests;
   mFood = food;
   mDrinks = drinks;
   mEntertainment = entertainment;
 
-  }
-  public int guests(int numberOfGuests) {
+ }
+
+  public int getGuests() {
     return mGuests;
   }
 
-  public String food(int foodOfChoice) {
+  public int getFood() {
     return mFood;
   }
 
-  public String drinks(int drinksOfChoice) {
+  public int getDrinks() {
     return mDrinks;
   }
 
-  public String entertainment(int entertainmentOfChoice) {
+  public int getEntertainment() {
     return mEntertainment;
   }
 
-  public
+  public int getTotalEventCost() {
+   return mTotalEventCost;
+ }
+}
