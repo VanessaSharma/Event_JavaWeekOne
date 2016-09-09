@@ -34,17 +34,4 @@ System.out.println("The total cost of your event will be : ");
 }
 
 }
-  //  System.out.println( "How many people will attend your event? ");
-    //int userGuests = Integer.parseInt(myConsole.readLine());
-//
-  //  System.out.println( "Do you need food to be catered for this event? ");
-    //boolean userFood = myConsole.readLine();
-
-    //System.out.println( "Do you also need drinks for this event? ");
-    //boolean userDrinks = myConsole.readLine();
-
-    //System.out.println( "Would you like live entertainment for your event?");
-    //boolean userDrinks = myConsole.readLine();
-
-    //Event customerEvent = new Event(userGuests, userFood, userDrinks, userFood, userEntertainment);
-//
+  
