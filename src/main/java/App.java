@@ -23,7 +23,7 @@ System.out.println("The total cost of your event will be : ");
     //int userGuests = Integer.parseInt(myConsole.readLine());
 //
   //  System.out.println( "Do you need food to be catered for this event? ");
-    b//oolean userFood = myConsole.readLine();
+    //boolean userFood = myConsole.readLine();
 
     //System.out.println( "Do you also need drinks for this event? ");
     //boolean userDrinks = myConsole.readLine();
@@ -32,16 +32,4 @@ System.out.println("The total cost of your event will be : ");
     //boolean userDrinks = myConsole.readLine();
 
     //Event customerEvent = new Event(userGuests, userFood, userDrinks, userFood, userEntertainment);
-//
-    // if (userGuests == userSideB && userSideA == userSideC) {
-      // System.out.println( );
-    // }
-    // else if (userSideA == userSideB || userSideB == userSideC || userSideA == userSideC ) {
-      // System.out.println( );
-    // }
-    // else if (userSideA != userSideB || userSideB != userSideC || userSideA != userSideC ) {
-      // System.out.println( );
-    // } else {
-      // System.out.println( "Sorry, we cannot organize your event");
-    }
-  }
+
