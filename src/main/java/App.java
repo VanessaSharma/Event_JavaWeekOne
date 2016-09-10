@@ -1,6 +1,5 @@
-//rewriting code 
-//not finished
-//program cannot excute cost 
+
+//program cannot execute cost 
 
 import java.io.Console;
 
@@ -25,6 +24,8 @@ if( guests == 1) {
   guests = 100;
 } else if ( guests == 3) {
   guests = 200;
+} else {
+  System.out.println("Sorry, I didn't understand what you meant.Please choose of of the above options by providing the number associated with it.");
 }
 
 System.out.println("If you are interested in having your event catered by us, please choose and enter the number associated with your prefered cuisine: Mexican(1), Indian(2), or American(3).");
@@ -35,6 +36,8 @@ if( food == 1) {
   food = 40;
 } else if ( food == 3) {
   food = 75;
+} else {
+  System.out.println("Sorry, I didn't understand what you meant.Please choose of of the above options by providing the number associated with it.");
 }
 
 System.out.println("Would you like to include drinks in your events? Please enter the number associated with your choice: No(1), Yes, Alcoholic and Non-Alcoholic(2), Yes, only Non-Alcoholic(3).");
@@ -45,6 +48,8 @@ if( drinks == 1) {
   drinks = 35;
 } else if ( drinks == 3) {
   drinks = 10;
+} else {
+  System.out.println("Sorry, I didn't understand what you meant.Please choose of of the above options by providing the number associated with it.");
 }
 
 System.out.println("Our company offers the option of having live entertainment. Please enter the number associated with your choice: No entertainment(1), Rock Band(2), Dj services(3), Professional Singer with dancers(4).");
@@ -57,6 +62,8 @@ if( entertainment == 1) {
   entertainment = 350;
 } else if (entertainment == 2) {
   entertainment = 650;
+} else {
+  System.out.println("Sorry, I didn't understand what you meant.Please choose of of the above options by providing the number associated with it.");
 }
 
 System.out.println("The total cost of your desired event is:/n" + "$" +  totalEventCost);
