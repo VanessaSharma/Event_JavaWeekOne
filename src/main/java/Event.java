@@ -2,7 +2,7 @@
  
 //rewriting code
 //cannot excute final cost
-public class Event {
+public class Event {  //blueprint Event
 
   private int mGuests;
   private int mFood;
@@ -39,12 +39,12 @@ public Event( int guests, int food, int drinks, int entertainment){
   }
 
   public int getFoodCost() {
-     mFoodCost = mGuests*mFood;
-     return mFoodCost;
+    mFoodCost = mGuests*mFood;
+    return mFoodCost;
 }
 public int getDrinksCost() {
-  mDrinksCost = mGuests*mDrinks;
-  return mDrinksCost;
+   mDrinksCost = mGuests*mDrinks;
+   return mDrinksCost;
 }
 
   public int getTotalEventCost() {
