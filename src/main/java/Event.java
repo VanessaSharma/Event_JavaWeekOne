@@ -4,16 +4,16 @@
 //cannot excute final cost
 public class Event {  //blueprint Event
 
-  private int mGuests;
-  private int mFood;
-  private int mDrinks;
-  private int mEntertainment;
-  private int mFoodCost;
-  private int mDrinksCost;
-  private int mTotalEventCost;
+  private Integer mGuests;
+  private Integer mFood;
+  private Integer mDrinks;
+  private Integer mEntertainment;
+  private Integer mFoodCost;
+  private Integer mDrinksCost;
+  private Integer mTotalEventCost;
 
 
-public Event( int guests, int food, int drinks, int entertainment){
+public Event( Integer guests, Integer food, Integer drinks, Integer entertainment){
 
   mGuests = guests;
   mFood = food;
@@ -22,32 +22,32 @@ public Event( int guests, int food, int drinks, int entertainment){
 
  }
 
-  public int getGuests() {
+  public Integer getGuests() {
     return mGuests;
   }
 
-  public int getFood() {
+  public Integer getFood() {
     return mFood;
   }
 
-  public int getDrinks() {
+  public Integer getDrinks() {
     return mDrinks;
   }
 
-  public int getEntertainment() {
+  public Integer getEntertainment() {
     return mEntertainment;
   }
 
-  public int getFoodCost() {
+  public Integer getFoodCost() {
     mFoodCost = mGuests*mFood;
     return mFoodCost;
 }
-public int getDrinksCost() {
+public Integer getDrinksCost() {
    mDrinksCost = mGuests*mDrinks;
    return mDrinksCost;
 }
 
-  public int getTotalEventCost() {
+  public Integer getTotalEventCost() {
     mTotalEventCost = (mGuests*mFood) + (mGuests*mDrinks) + mEntertainment;
     return mTotalEventCost;
  }
