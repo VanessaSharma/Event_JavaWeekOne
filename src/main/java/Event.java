@@ -4,6 +4,8 @@ public class Event {
   private int mFood;
   private int mDrinks;
   private int mEntertainment;
+  private int mFoodCost;
+  private int mDrinksCost;
   private int mTotalEventCost;
 
 
@@ -32,7 +34,18 @@ public Event( int guests, int food, int drinks, int entertainment){
     return mEntertainment;
   }
 
+  public int getFoodCost() {
+     mFoodCost = mGuests*mFood;
+     return mFoodCost;
+}
+public int getDrinksCost() {
+  mDrinksCost = mGuests*mDrinks;
+  return mDrinksCost;
+}
+
   public int getTotalEventCost() {
-   return mTotalEventCost;
+    mTotalEventCost = (mGuests*mFood) + (mGuests*mDrinks) + mEntertainment;
+    return mTotalEventCost;
  }
+
 }

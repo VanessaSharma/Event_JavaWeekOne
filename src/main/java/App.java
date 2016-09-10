@@ -5,8 +5,9 @@ public class App {
 public static void main(String[] args ) {
 Console myConsole = System.console();
 
-Event evaluate = new Event(guests, food, drinks, entertainment);
-int totalEventCost = (mGuests + (mGuests * mFood) + (mGuests * mDrinks ) + mEntertainment);
+//Event event = new Event(guests, food, drinks, entertainment);
+
+//int totalEventCost = (mGuests + (mGuests * mFood) + (mGuests * mDrinks ) + mEntertainment);
 
 System.out.println("Welcome to Krishna Event Planning!");
 System.out.println("How many guests will be attending your event? Please choose between our three options. Make sure to enter the number associated with the option: 50 guests (1) , 100 guests (2) , 200 guests (3)");
@@ -51,7 +52,7 @@ if( entertainment == 1){
   entertainment = 650;
 }
 
-System.out.println("The total cost of your desired event is:/n" + "$" + totalEventCost);
+System.out.println("The total cost of your desired event is:/n" + "$");
 
  }
 }
