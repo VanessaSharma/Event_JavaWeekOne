@@ -3,6 +3,8 @@
 
 #### _This application will provide users with options to plan their event.Users will be able to choose between three different options of food, drinks, number of guests, and entertainment. The user will be notified of the total cost of the event once he/she has answered all questions. September 9th, 2016_
 
+###_http://VanessaSharma.github.io/Event_JavaWeekOne_
+
 #### By _**Vanessa Palacios Sharma**_
 
 
