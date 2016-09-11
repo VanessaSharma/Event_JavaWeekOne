@@ -1,19 +1,18 @@
 
- 
+package main;
+
 //rewriting code
 //cannot excute final cost
-public class Event {  //blueprint Event
+public class Event {  
 
-  private Integer mGuests;
-  private Integer mFood;
-  private Integer mDrinks;
-  private Integer mEntertainment;
-  private Integer mFoodCost;
-  private Integer mDrinksCost;
-  private Integer mTotalEventCost;
+  private int mGuests;
+  private int mFood;
+  private int mDrinks;
+  private int mEntertainment;
+  private int mTotalEventCost;
 
 
-public Event( Integer guests, Integer food, Integer drinks, Integer entertainment){
+public Event( int guests, int food, int drinks, int entertainment){
 
   mGuests = guests;
   mFood = food;
@@ -22,34 +21,26 @@ public Event( Integer guests, Integer food, Integer drinks, Integer entertainmen
 
  }
 
-  public Integer getGuests() {
-    return mGuests;
+ public int getGuests() {
+  return mGuests;
   }
 
-  public Integer getFood() {
-    return mFood;
+  public int getFood() {
+   return mFood;
   }
 
-  public Integer getDrinks() {
-    return mDrinks;
+  public int getDrinks() {
+   return mDrinks;
   }
 
-  public Integer getEntertainment() {
-    return mEntertainment;
+  public int getEntertainment() {
+   return mEntertainment;
   }
+  
 
-  public Integer getFoodCost() {
-    mFoodCost = mGuests*mFood;
-    return mFoodCost;
-}
-public Integer getDrinksCost() {
-   mDrinksCost = mGuests*mDrinks;
-   return mDrinksCost;
-}
-
-  public Integer getTotalEventCost() {
-    mTotalEventCost = (mGuests*mFood) + (mGuests*mDrinks) + mEntertainment;
-    return mTotalEventCost;
+  public int getTotalEventCost() {
+   mTotalEventCost = (getGuests()*getFood()) + (getGuests()*getDrinks()) + getEntertainment();
+   return mTotalEventCost;
  }
 
 }
