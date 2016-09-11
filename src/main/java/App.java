@@ -37,9 +37,6 @@ default:
 }
 }while(userInput<1 || userInput>3); //runs if user input is invalid, breaks once user input is valid
 
-  
-
-
 int drinksCost = 0;
 int userInputDrinks;
 //take user input for drinks
@@ -61,7 +58,6 @@ default:
  break;
 }
 }while(userInputDrinks <1 || userInputDrinks>3); ////runs if user input is invalid, breaks once user input is valid
-
 
 int entertainmentCost = 0;
 int userInputEntertainment;
