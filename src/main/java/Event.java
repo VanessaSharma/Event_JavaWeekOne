@@ -1,8 +1,6 @@
 
 package main;
 
-//rewriting code
-//cannot excute final cost
 public class Event {  
 
   private int mGuests;
