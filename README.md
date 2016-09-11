@@ -1,5 +1,3 @@
-# Event_JavaWeekOne
-
 
 # _Event Planner_
 
