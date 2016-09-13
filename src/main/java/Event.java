@@ -32,6 +32,12 @@ public Event( int guests, int food, int drinks, int entertainment){
   
 
   public int getTotalEventCost() {
+   int userInput;
+   int food = 0;
+   int mexicanFood = 20;
+   int indianFood = 40;
+   int americanFood = 75;
+   
    mTotalEventCost = (mGuests*mFood()) + (mGuests*mDrinks + mEntertainment;
    return mTotalEventCost;
  }
