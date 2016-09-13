@@ -9,11 +9,6 @@ System.out.println("Welcome to Krishna Event Planning!");
 System.out.println("How many guests will be attending your event?");
 int guests = Integer.parseInt(aScanner.nextLine());
 
-int userInput;
-int food = 0;
-int mexicanFood = 20;
-int indianFood = 40;
-int americanFood = 75;
 //take user input for the food
 do{
 System.out.println("If you are interested in having your event catered by us, please choose and enter the number associated with your prefered cuisine: Mexican(1), Indian(2), or American(3).");
