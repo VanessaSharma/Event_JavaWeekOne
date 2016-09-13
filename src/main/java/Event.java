@@ -1,6 +1,3 @@
-
-package main;
-
 public class Event {  
 
   private int mGuests;
@@ -9,9 +6,7 @@ public class Event {
   private int mEntertainment;
   private int mTotalEventCost;
 
-
 public Event( int guests, int food, int drinks, int entertainment){
-
   mGuests = guests;
   mFood = food;
   mDrinks = drinks;
