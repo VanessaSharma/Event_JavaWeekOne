@@ -38,7 +38,7 @@ public Event( int guests, int food, int drinks, int entertainment){
    int indianFood = 40;
    int americanFood = 75;
    
-   mTotalEventCost = (mGuests*mFood()) + (mGuests*mDrinks + mEntertainment;
+   mTotalEventCost = (mGuests*mFood()) + (mGuests*mDrinks) + mEntertainment;
    return mTotalEventCost;
  }
 
