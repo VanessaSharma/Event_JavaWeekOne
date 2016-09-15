@@ -3,22 +3,20 @@ import java.util.Scanner;
 public class App {
 public static void main(String[] args ) {
 Scanner aScanner = new Scanner(System.in);
-
 //take user input for guests
 System.out.println("Welcome to Krishna Event Planning!");
 System.out.println("How many guests will be attending your event?");
 int guests = Integer.parseInt(aScanner.nextLine());
-
 //take user input for the food
 do{
 System.out.println("If you are interested in having your event catered by us, please choose and enter the number associated with your prefered cuisine: Mexican(1), Indian(2), or American(3).");
  userInput = Integer.parseInt(aScanner.nextLine());
 
 switch (userInput){
-case 1:   
+case 1:
   food = mexicanFood;
   break;
-case 2: 	
+case 2:
  food = indianFood;
  break;
 case 3:
@@ -69,7 +67,7 @@ case 2:
 case 3:
   entertainmentCost = 350;
   break;
-  
+
 case 4:
   entertainmentCost = 650;
   break;

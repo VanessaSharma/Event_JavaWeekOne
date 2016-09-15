@@ -1,5 +1,4 @@
-public class Event {  
-
+public class Event {
   private int mGuests;
   private int mFood;
   private int mDrinks;
@@ -11,35 +10,28 @@ public Event( int guests, int food, int drinks, int entertainment){
   mFood = food;
   mDrinks = drinks;
   mEntertainment = entertainment;
-
  }
-
- public int getGuests() {
+public int getGuests() {
   return mGuests;
   }
-
-  public int getFood() {
-   return mFood;
+public int getFood() {
+  return mFood;
   }
-
-  public int getDrinks() {
-   return mDrinks;
+public int getDrinks() {
+  return mDrinks;
   }
-
-  public int getEntertainment() {
-   return mEntertainment;
+public int getEntertainment() {
+  return mEntertainment;
   }
-  
+public int getTotalEventCost() {
+    int userInput;
+    int food = 0;
+    int mexicanFood = 20;
+    int indianFood = 40;
+    int americanFood = 75;
 
-  public int getTotalEventCost() {
-   int userInput;
-   int food = 0;
-   int mexicanFood = 20;
-   int indianFood = 40;
-   int americanFood = 75;
-   
-   mTotalEventCost = (mGuests*mFood()) + (mGuests*mDrinks) + mEntertainment;
-   return mTotalEventCost;
+  mTotalEventCost = (mGuests*mFood()) + (mGuests*mDrinks) + mEntertainment;
+  return mTotalEventCost;
  }
 
 }
