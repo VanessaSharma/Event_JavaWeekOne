@@ -50,7 +50,7 @@ case 3:
   drinksCost = 10;
   break;
 default:
- System.out.print("This is not a valid input.Please try again");
+ System.out.println("This is not a valid input.Please try again");
  break;
 }
 }while(userInputDrinks <1 || userInputDrinks>3); ////runs if user input is invalid, breaks once user input is valid

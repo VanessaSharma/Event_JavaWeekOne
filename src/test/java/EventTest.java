@@ -1,28 +1,27 @@
 import static org.junit.Assert.*;
-import main.Event;
 import org.junit.Test;
 
 public class EventTest {
 
 	@Test
 	public void getGuests_increasesCostPerPerson_10(){
-		Event userEvent = new Event(10, 20, 35, 350)
-			assertTrue(event instanceof Event);
+		Event userEvent = new Event(10, 20, 35, 350);
+			assertTrue(userEvent instanceof Event);
 	}
 	@Test
 	public void getFood_increasesCostPerPerson_20(){
-		Event userEvent = new Event(10, 20, 35, 350)
-			assertTrue(event instanceof Event);
+		Event userEvent = new Event(10, 20, 35, 350);
+			assertTrue(userEvent instanceof Event);
 	}
 	@Test
 	public void getDrinks_increasesCostPerPerson_35(){
-		Event userEvent = new Event(10, 20, 35, 350)
-			assertTrue(event instanceof Event);
+		Event userEvent = new Event(10, 20, 35, 350);
+			assertTrue(userEvent instanceof Event);
 	}
 	@Test
 	public void getEntertainment_increasesCostOnChoice_350(){
-		Event userEvent = new Event(10, 20, 35, 350)
-			assertTrue(event instanceof Event);
+		Event userEvent = new Event(10, 20, 35, 350);
+			assertTrue(userEvent instanceof Event);
 	}
 
 	@Test
