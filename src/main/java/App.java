@@ -2,6 +2,11 @@ import java.util.Scanner;
 
 public class App {
 public static void main(String[] args ) {
+  int userInput;
+  int food = 0;
+  int mexicanFood = 20;
+  int indianFood = 40;
+  int americanFood = 75;
 Scanner aScanner = new Scanner(System.in);
 //take user input for guests
 System.out.println("Welcome to Krishna Event Planning!");
@@ -76,6 +81,7 @@ default:
  break;
 }
 }while(userInputEntertainment<1 || userInputEntertainment>4); //runs if user input is invalid, breaks once user input is valid
+
 
 Event event = new Event(guests, food, drinksCost, entertainmentCost);
 int totalEventCost = event.getTotalEventCost();

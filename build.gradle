@@ -3,7 +3,7 @@ apply plugin: 'application'
 
 archivesBaseName = "event"
 version = '1.0'
-mainClassName = "Event"
+mainClassName = "App"
 
 repositories {
  mavenCentral()
